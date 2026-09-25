@@ -1,0 +1,136 @@
+# C++
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+
+build/
+build-*/
+!build-scripts/
+buildbot/
+/VERSION.txt
+__pycache__
+
+*.so
+*.so.*
+*.dll
+*.exe
+*.o
+*.obj
+*.res
+*.lib
+*.a
+*.la
+*.dSYM
+*,e1f
+*,ff8
+*.lnk
+*.err
+*.exp
+*.map
+*.orig
+*~
+*.swp
+*.tmp
+*.rej
+
+# for CMake
+.cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+cmake_uninstall.cmake
+install_manifest.txt
+*Targets.cmake
+*Config.cmake
+*ConfigVersion.cmake
+CTestTestfile.cmake
+Testing
+compile_commands.json
+.cache/
+/include-config-*
+/include-revision
+/Makefile
+.ninja_*
+*.ninja
+*.pc
+test/*.test
+wayland-generated-protocols
+CMakeSettings.json
+
+# for Visual Studio Code
+.vscode/
+
+# for Android
+android-project/local.properties
+android-project/.gradle/
+
+# for Doxygen
+docs/output
+SDL.tag
+doxygen_warn.txt

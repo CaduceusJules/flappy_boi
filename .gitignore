@@ -126,6 +126,32 @@ CMakeSettings.json
 # for Visual Studio Code
 .vscode/
 
+# for Visual C++
+.vs
+Debug
+Release
+*.user
+*.ncb
+*.suo
+*.sdf
+VisualC/tests/loopwave/sample.wav
+VisualC/tests/testautomation/*.bmp
+VisualC/tests/testautomation/*.png
+VisualC/tests/testcontroller/*.png
+VisualC/tests/testoverlay/moose.dat
+VisualC/tests/testrendertarget/icon.png
+VisualC/tests/testrendertarget/sample.png
+VisualC/tests/testscale/icon.png
+VisualC/tests/testscale/sample.png
+VisualC/tests/testsprite/icon.png
+VisualC/tests/testyuv/testyuv.png
+VisualC-GDK/**/Layout
+src/render/direct3d12/D3D12_*_One.h
+src/render/direct3d12/D3D12_*_Series.h
+src/gpu/d3d12/D3D12_*_One.h
+src/gpu/d3d12/D3D12_*_Series.h
+out/
+
 # for Android
 android-project/local.properties
 android-project/.gradle/
